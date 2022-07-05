@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-05T13:31:56.955Z" agent="5.0 (Windows)" etag="YgB181LxSLLJ-JYHJErL" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-05T13:36:53.154Z" agent="5.0 (Windows)" etag="4WJqZz9FHBVNKBn4G4KA" version="20.0.4" type="github">
   <diagram id="0tj0Ddx0Vzicd9nTZ8Nx" name="Page-1">
     <mxGraphModel dx="978" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -20,7 +20,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nSLqRQNjX9XlRezAW7gF-5" value="Pengunjung" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="360" y="740" width="180" height="140" as="geometry" />
+          <mxGeometry x="370" y="740" width="180" height="140" as="geometry" />
         </mxCell>
         <mxCell id="nSLqRQNjX9XlRezAW7gF-6" value="&lt;div&gt;+Mengakses Website&lt;/div&gt;&lt;div&gt;+Mendapat Informasi&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="nSLqRQNjX9XlRezAW7gF-5">
           <mxGeometry x="10" y="30" width="140" height="40" as="geometry" />
@@ -47,6 +47,66 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="370" y="590" as="sourcePoint" />
             <mxPoint x="550" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nSLqRQNjX9XlRezAW7gF-13" value="Kategori" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="650" y="390" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="nSLqRQNjX9XlRezAW7gF-14" value="&lt;div&gt;+No : Int&lt;/div&gt;&lt;div&gt;+Id : Int&lt;/div&gt;&lt;div&gt;+Kategori : String&lt;/div&gt;&lt;div&gt;+Slug : String&lt;/div&gt;&lt;div&gt;+Opsi : String&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="nSLqRQNjX9XlRezAW7gF-13">
+          <mxGeometry x="10" y="15" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="nSLqRQNjX9XlRezAW7gF-15" value="&lt;div&gt;+Mengubah()&lt;/div&gt;&lt;div&gt;+Menambah()&lt;/div&gt;&lt;div&gt;+Menghapus()&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="nSLqRQNjX9XlRezAW7gF-13">
+          <mxGeometry x="10" y="101" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nSLqRQNjX9XlRezAW7gF-16" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="490" as="sourcePoint" />
+            <mxPoint x="830" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nSLqRQNjX9XlRezAW7gF-17" value="Admin" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="370" y="270" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="nSLqRQNjX9XlRezAW7gF-18" value="&lt;div&gt;+User Name : String&lt;/div&gt;&lt;div&gt;+Password : String&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="nSLqRQNjX9XlRezAW7gF-17">
+          <mxGeometry x="10" y="36" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nSLqRQNjX9XlRezAW7gF-19" value="+Cek()" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="nSLqRQNjX9XlRezAW7gF-17">
+          <mxGeometry x="10" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nSLqRQNjX9XlRezAW7gF-20" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="360" as="sourcePoint" />
+            <mxPoint x="550" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nSLqRQNjX9XlRezAW7gF-21" value="DashBoard" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="90" y="370" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="nSLqRQNjX9XlRezAW7gF-22" value="+Informasi : String" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="nSLqRQNjX9XlRezAW7gF-21">
+          <mxGeometry x="10" y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nSLqRQNjX9XlRezAW7gF-23" value="+Cek()" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="nSLqRQNjX9XlRezAW7gF-21">
+          <mxGeometry x="10" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nSLqRQNjX9XlRezAW7gF-24" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="nSLqRQNjX9XlRezAW7gF-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="71" as="sourcePoint" />
+            <mxPoint x="180" y="71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nSLqRQNjX9XlRezAW7gF-26" value="Pages" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="90" y="560" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="nSLqRQNjX9XlRezAW7gF-27" value="&lt;div&gt;+No : Int&lt;/div&gt;&lt;div&gt;+Judul Halaman : String&lt;/div&gt;&lt;div&gt;+URL Slug : String&lt;/div&gt;&lt;div&gt;+Opsi : String&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="nSLqRQNjX9XlRezAW7gF-26">
+          <mxGeometry x="10" y="21" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nSLqRQNjX9XlRezAW7gF-28" value="&lt;div&gt;+Mengubah()&lt;/div&gt;&lt;div&gt;+Menambah()&lt;/div&gt;&lt;div&gt;+Menghapus()&lt;br&gt;+Melihat()&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="nSLqRQNjX9XlRezAW7gF-26">
+          <mxGeometry x="10" y="90" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nSLqRQNjX9XlRezAW7gF-29" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="650" as="sourcePoint" />
+            <mxPoint x="270" y="650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
