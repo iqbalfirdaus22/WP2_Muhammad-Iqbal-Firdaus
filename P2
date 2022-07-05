@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2022-07-05T11:43:23.801Z" agent="5.0 (Windows)" version="20.0.4" etag="vvss7rpDo1jEMxAleHOL" type="github"><diagram id="0tj0Ddx0Vzicd9nTZ8Nx">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-05T12:55:08.207Z" agent="5.0 (Windows)" etag="bMa0OdrNg6zzgLLqiaSr" version="20.0.4" type="github">
+  <diagram id="0tj0Ddx0Vzicd9nTZ8Nx" name="Page-1">
+    <mxGraphModel dx="978" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nSLqRQNjX9XlRezAW7gF-1" value="Menu Admin" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="360" y="480" width="180" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="nSLqRQNjX9XlRezAW7gF-3" value="&lt;div&gt;+DashBoard : String&lt;/div&gt;&lt;div&gt;+Kategori : String&lt;/div&gt;&lt;div&gt;+Artikel : String&lt;/div&gt;&lt;div&gt;+Pages : String&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="nSLqRQNjX9XlRezAW7gF-1">
+          <mxGeometry x="10" y="27" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nSLqRQNjX9XlRezAW7gF-4" value="&lt;div&gt;+Mengubah()&lt;/div&gt;&lt;div&gt;+Menambah()&lt;/div&gt;&lt;div&gt;+Menghapus()&lt;br&gt;+Melihat()&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="nSLqRQNjX9XlRezAW7gF-1">
+          <mxGeometry x="15" y="110" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nSLqRQNjX9XlRezAW7gF-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="580" as="sourcePoint" />
+            <mxPoint x="540" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nSLqRQNjX9XlRezAW7gF-5" value="Pengunjung" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="360" y="740" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="nSLqRQNjX9XlRezAW7gF-6" value="&lt;div&gt;+Mengakses Website&lt;/div&gt;&lt;div&gt;+Mendapat Informasi&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="nSLqRQNjX9XlRezAW7gF-5">
+          <mxGeometry x="10" y="30" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nSLqRQNjX9XlRezAW7gF-7" value="&lt;div&gt;+Dilihat()&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="nSLqRQNjX9XlRezAW7gF-5">
+          <mxGeometry x="10" y="90" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nSLqRQNjX9XlRezAW7gF-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="nSLqRQNjX9XlRezAW7gF-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="82" as="sourcePoint" />
+            <mxPoint x="180" y="82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
